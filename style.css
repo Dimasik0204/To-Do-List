@@ -1,0 +1,107 @@
+
+html{
+    display: table;
+    margin: auto;
+
+}
+
+html body {
+    height: 100%;
+}
+h1 {font-family: cursive;
+    
+}
+
+body {
+    display: table-cell;
+    vertical-align:middle;
+    font-family:serif;
+    background-color: rgb(198, 238, 245)
+    
+}
+
+h3 { text-align: center;
+    vertical-align: text-top;
+    margin-top: 2px;
+    text-decoration: underline ;
+    text-decoration:;
+    
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.label {
+    font-size: large;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.input {
+    height: 35px ;
+    width: 250px;
+  
+    border: solid rgb(90, 92, 126);
+}
+
+.pending {
+    align-items: center ;
+    justify-content:space-between;
+    background-color: azure;
+    color: 241E02;
+    padding: 5px;
+    margin: 30px;
+    outline: 8px ridge rgba(109, 31, 143, 0.6);
+border-radius: 2rem;
+
+    
+}
+
+.completed {
+
+    align-items: center ;
+    justify-content: center;
+    background-color: azure;
+    color: 241E02;
+    padding: 10px;
+    margin: 30px;
+    outline: 8px ridge rgba(109, 31, 143, 0.6);
+border-radius: 2rem;
+        
+}
+
+.addbutton{
+    width: 70px;
+    height: 35px;
+    color: 241E02;
+    background-color: rgb(20, 132, 223);
+    justify-content: center;
+    border-style:groove;
+    font-size: medium;
+    font-weight: bold;
+
+}
+
+.todo-item {
+   background-color:  rgb(20, 132, 223);
+   
+   
+   
+}
+
+
+.removeButton {
+float: right;
+outline: 5px  rgba(5, 1, 7, 0.6);
+border-radius: 3rem;
+margin-left: 40px;
+background-color: rgb(148, 51, 51);
+font-weight: 600;
+}
+
+@media (min 480px) {
+    
+}
